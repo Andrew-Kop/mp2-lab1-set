@@ -5,8 +5,8 @@
 //
 // Множество
 
-#ifndef __SET_H__
-#define __SET_H__
+//#ifndef __SET_H__
+//#define __SET_H__
 
 #include "tbitfield.h"
 
@@ -40,4 +40,6 @@ public:
   friend istream &operator>>(istream &istr, TSet &bf);
   friend ostream &operator<<(ostream &ostr, const TSet &bf);
 };
-#endif
+
+
+
